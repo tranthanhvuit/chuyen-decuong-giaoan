@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+
+# production
+build/
+
+# dotenv environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# test coverage
+coverage/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# lock file if not using yarn
+yarn.lock
